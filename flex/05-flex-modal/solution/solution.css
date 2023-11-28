@@ -44,8 +44,8 @@ body {
   height: 24px;
   width: 24px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items:center;
+  justify-content:flex-end;
   border: 1px solid #eee;
   padding: 0;
 }
@@ -60,12 +60,14 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  flex-direction: row;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
-  color: royalblue;
+  color: #4169e1;
+  flex-direction: column;
 }
 
 /* SOLUTION: */
@@ -92,4 +94,7 @@ button.cancel {
 
 .text {
   margin-bottom: 16px;
+}
+.container {
+  display: flex;
 }

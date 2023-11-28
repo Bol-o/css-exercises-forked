@@ -1,0 +1,11 @@
+button {
+    color: aqua;
+    background-color: blueviolet;
+    padding: 20px;
+    mrgin: 40px;
+    display: block;
+}
+
+.something {
+    display: block;
+}
